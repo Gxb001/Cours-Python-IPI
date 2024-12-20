@@ -1,4 +1,3 @@
-
 def sum_list():
     notes = []
     val = 0
@@ -11,6 +10,7 @@ def sum_list():
             print("Veuillez entrer un nombre valide")
     print(notes)
     return sum(notes) / len(notes), len(notes)
+
 
 res = sum_list()
 print(f"La moyenne des notes est {res[0]} pour {res[1]} notes.")
