@@ -1,4 +1,6 @@
 import random
+
+
 def guess_random_nb():
     lvl_choice = int(input("Choisissez un niveau de difficulté (1, 2 ou 3): "))
     max_guess_possible = 0
@@ -19,4 +21,6 @@ def guess_random_nb():
         else:
             print("Bravo ! Vous avez trouvé le nombre.")
             break
+
+
 guess_random_nb()
