@@ -6,4 +6,4 @@ def convertisseur(vitesse):
     return round(vitesse/1.609,2)
 
 vitesse = input("Entrez une vitesse en km/h : ")
-print(convertisseur(vitesse))
+print(f"La vitesse {vitesse} km/h est équivalente à {convertisseur(vitesse)} m/h")
