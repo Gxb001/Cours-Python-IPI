@@ -14,7 +14,7 @@ def multiply_list(number):
     liste = [0 * number for i in range(10)]
     for i in range(10):
         liste[i] = (i + 1) * number
-        if (liste[i] % 3 == 0):
+        if liste[i] % 3 == 0:
             liste[i] = f"{liste[i]}*"
     return liste
 
